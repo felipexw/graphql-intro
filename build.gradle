@@ -25,6 +25,12 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+
+	compile group: 'com.graphql-java', name: 'graphql-spring-boot-starter', version: '5.0.2'
+	compile group: 'com.graphql-java', name: 'graphql-java-tools', version: '5.2.4'
+
+	compile group: 'com.graphql-java', name: 'voyager-spring-boot-starter', version: '5.0.2'
+	compile group: 'com.graphql-java', name: 'graphiql-spring-boot-starter', version: '5.0.2'
 }
 
 test {
